@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1682687982183-c2937a74257c?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: gray;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    width: 30rem;
+    margin-top: 5rem;
+    background-color: aliceblue;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 8px 10px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    color: rgba(31, 63, 68, 0.491);
+    font-size: 3rem;
+}
+p {
+    line-height: 20px;
+    text-align: left;
+    font-size: medium;
+    margin-top: 1rem;
+    color: rgb(40, 113, 117);
+}
+
+#open_modal {
+    margin-top: 2rem;
+    padding: 0.5rem 2rem;
+    border: 1px solid gainsboro;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgba(31, 63, 68, 0.491);;
+}
